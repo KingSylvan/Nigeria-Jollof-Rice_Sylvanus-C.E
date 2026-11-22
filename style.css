@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/></svg>');
+}
+
+h1 {
+  color:rgba(0,0,0,0.7);
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  background-color: #d08A50;
+}
+
+header{
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+#attention {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#jollof_photo_book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+#headernote {
+  text-align: center;
+  color : rgb(100,0,50);
+}
+
+#image1 {
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
+  
+#panel2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+#panel2 > div {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+
+#panellast{
+  border: 1px solid;
+}
+
+.gallery {
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+#ingredient {
+ text-decoration: underline;
+}
+
